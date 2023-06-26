@@ -1,2 +1,3 @@
 # Genshin_hub
- React app 
+ React app using react js html and css
+ 
