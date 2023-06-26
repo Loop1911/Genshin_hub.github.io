@@ -1,0 +1,101 @@
+.Explore {
+  margin: 4rem 6rem;
+}
+.Explore h1 {
+  font-size: 3rem;
+}
+
+.first-des p {
+  font-size: 25px;
+}
+.first-des {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.des-text {
+  width: 45%;
+  word-wrap: break-word;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.des-text h2 {
+  display: flex;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.image {
+  position: relative;
+  width: 60%;
+  display: flex;
+
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.des-text p {
+  display: flex;
+  float: left;
+  width: 100%;
+  font-stretch: expanded;
+  position: relative;
+  text-align: start;
+  padding-top: 2rem;
+  padding-right: 20px;
+}
+
+.image img {
+  width: 48%;
+  height: 350px;
+  background-color: black;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: -1px 1px 63px 18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .Explore {
+    word-wrap: break-word;
+    margin: 4rem 2rem;
+  }
+
+  .first-des {
+    display: flex;
+    word-wrap: break-word;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+  }
+}
+
+.des-text2 {
+  padding-top: 2rem;
+  word-wrap: break-word;
+  font-size: 18px;
+  align-items: center;
+}
+
+.des-text h2 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+
+  width: 400px;
+  float: center;
+  text-align: center;
+}
+.des-text p {
+  display: flex;
+  font-stretch: extra-condensed;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+}

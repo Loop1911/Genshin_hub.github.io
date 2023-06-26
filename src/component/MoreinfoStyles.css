@@ -1,0 +1,23 @@
+.Info {
+  padding-top: 2rem;
+}
+.info1 {
+  font-size: 18px;
+}
+
+.info1 h1 {
+  padding-top: 5rem;
+  position: relative;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.info1 p {
+  position: relative;
+  align-items: center;
+  padding-top: 3rem;
+  font-size: 25px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 7rem;
+}
